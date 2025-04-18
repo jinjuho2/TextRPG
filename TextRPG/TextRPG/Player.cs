@@ -53,6 +53,7 @@ namespace TextRPG
         {
             Console.Clear();
             Console.WriteLine($"이름: {name}");
+            Console.WriteLine($"직업: 전사");
             Console.WriteLine($"Lv: {lv:D2}");
             Console.WriteLine($"클리어 횟수: {clearEA}");
             Console.WriteLine($"공격력: {atk + EquippedAttack()} (+{EquippedAttack()})");
